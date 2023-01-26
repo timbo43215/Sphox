@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0AD0D8297A0C4100779296 /* SphoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD0D7297A0C4100779296 /* SphoxApp.swift */; };
+		AB0AD0DA297A0C4100779296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD0D9297A0C4100779296 /* ContentView.swift */; };
+		AB0AD0DC297A0C4200779296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0AD0DB297A0C4200779296 /* Assets.xcassets */; };
+		AB0AD0E0297A0C4200779296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0AD0DF297A0C4200779296 /* Preview Assets.xcassets */; };
+		AB0AD0EA297A0C4200779296 /* SphoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD0E9297A0C4200779296 /* SphoxTests.swift */; };
+		AB0AD0F4297A0C4200779296 /* SphoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD0F3297A0C4200779296 /* SphoxUITests.swift */; };
+		AB0AD0F6297A0C4200779296 /* SphoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD0F5297A0C4200779296 /* SphoxUITestsLaunchTests.swift */; };
+		AB0AD10A29830C4600779296 /* BoundBoxVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10929830C4600779296 /* BoundBoxVolume.swift */; };
+		AB0AD10C29830C5600779296 /* BoundBoxSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10B29830C5600779296 /* BoundBoxSurfArea.swift */; };
+		AB0AD11029830D3200779296 /* EllipseVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10F29830D3200779296 /* EllipseVolume.swift */; };
+		AB0AD11229830D4000779296 /* EllipseSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD11129830D4000779296 /* EllipseSurfArea.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB0AD0E6297A0C4200779296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB0AD0CC297A0C4100779296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0AD0D3297A0C4100779296;
+			remoteInfo = Sphox;
+		};
+		AB0AD0F0297A0C4200779296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB0AD0CC297A0C4100779296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0AD0D3297A0C4100779296;
+			remoteInfo = Sphox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB0AD0D4297A0C4100779296 /* Sphox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sphox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0AD0D7297A0C4100779296 /* SphoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphoxApp.swift; sourceTree = "<group>"; };
+		AB0AD0D9297A0C4100779296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB0AD0DB297A0C4200779296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB0AD0DD297A0C4200779296 /* Sphox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sphox.entitlements; sourceTree = "<group>"; };
+		AB0AD0DF297A0C4200779296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB0AD0E5297A0C4200779296 /* SphoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0AD0E9297A0C4200779296 /* SphoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphoxTests.swift; sourceTree = "<group>"; };
+		AB0AD0EF297A0C4200779296 /* SphoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0AD0F3297A0C4200779296 /* SphoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphoxUITests.swift; sourceTree = "<group>"; };
+		AB0AD0F5297A0C4200779296 /* SphoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB0AD10929830C4600779296 /* BoundBoxVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundBoxVolume.swift; sourceTree = "<group>"; };
+		AB0AD10B29830C5600779296 /* BoundBoxSurfArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundBoxSurfArea.swift; sourceTree = "<group>"; };
+		AB0AD10F29830D3200779296 /* EllipseVolume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipseVolume.swift; sourceTree = "<group>"; };
+		AB0AD11129830D4000779296 /* EllipseSurfArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipseSurfArea.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0AD0D1297A0C4100779296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0AD0E2297A0C4200779296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0AD0EC297A0C4200779296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0AD0CB297A0C4100779296 = {
+			isa = PBXGroup;
+			children = (
+				AB0AD0D6297A0C4100779296 /* Sphox */,
+				AB0AD0E8297A0C4200779296 /* SphoxTests */,
+				AB0AD0F2297A0C4200779296 /* SphoxUITests */,
+				AB0AD0D5297A0C4100779296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0AD0D5297A0C4100779296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0AD0D4297A0C4100779296 /* Sphox.app */,
+				AB0AD0E5297A0C4200779296 /* SphoxTests.xctest */,
+				AB0AD0EF297A0C4200779296 /* SphoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0AD0D6297A0C4100779296 /* Sphox */ = {
+			isa = PBXGroup;
+			children = (
+				AB0AD0D7297A0C4100779296 /* SphoxApp.swift */,
+				AB0AD0D9297A0C4100779296 /* ContentView.swift */,
+				AB0AD10929830C4600779296 /* BoundBoxVolume.swift */,
+				AB0AD10B29830C5600779296 /* BoundBoxSurfArea.swift */,
+				AB0AD10F29830D3200779296 /* EllipseVolume.swift */,
+				AB0AD11129830D4000779296 /* EllipseSurfArea.swift */,
+				AB0AD0DB297A0C4200779296 /* Assets.xcassets */,
+				AB0AD0DD297A0C4200779296 /* Sphox.entitlements */,
+				AB0AD0DE297A0C4200779296 /* Preview Content */,
+			);
+			path = Sphox;
+			sourceTree = "<group>";
+		};
+		AB0AD0DE297A0C4200779296 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB0AD0DF297A0C4200779296 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB0AD0E8297A0C4200779296 /* SphoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB0AD0E9297A0C4200779296 /* SphoxTests.swift */,
+			);
+			path = SphoxTests;
+			sourceTree = "<group>";
+		};
+		AB0AD0F2297A0C4200779296 /* SphoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB0AD0F3297A0C4200779296 /* SphoxUITests.swift */,
+				AB0AD0F5297A0C4200779296 /* SphoxUITestsLaunchTests.swift */,
+			);
+			path = SphoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0AD0D3297A0C4100779296 /* Sphox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0AD0F9297A0C4200779296 /* Build configuration list for PBXNativeTarget "Sphox" */;
+			buildPhases = (
+				AB0AD0D0297A0C4100779296 /* Sources */,
+				AB0AD0D1297A0C4100779296 /* Frameworks */,
+				AB0AD0D2297A0C4100779296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sphox;
+			productName = Sphox;
+			productReference = AB0AD0D4297A0C4100779296 /* Sphox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB0AD0E4297A0C4200779296 /* SphoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0AD0FC297A0C4200779296 /* Build configuration list for PBXNativeTarget "SphoxTests" */;
+			buildPhases = (
+				AB0AD0E1297A0C4200779296 /* Sources */,
+				AB0AD0E2297A0C4200779296 /* Frameworks */,
+				AB0AD0E3297A0C4200779296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB0AD0E7297A0C4200779296 /* PBXTargetDependency */,
+			);
+			name = SphoxTests;
+			productName = SphoxTests;
+			productReference = AB0AD0E5297A0C4200779296 /* SphoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB0AD0EE297A0C4200779296 /* SphoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0AD0FF297A0C4200779296 /* Build configuration list for PBXNativeTarget "SphoxUITests" */;
+			buildPhases = (
+				AB0AD0EB297A0C4200779296 /* Sources */,
+				AB0AD0EC297A0C4200779296 /* Frameworks */,
+				AB0AD0ED297A0C4200779296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB0AD0F1297A0C4200779296 /* PBXTargetDependency */,
+			);
+			name = SphoxUITests;
+			productName = SphoxUITests;
+			productReference = AB0AD0EF297A0C4200779296 /* SphoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0AD0CC297A0C4100779296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AB0AD0D3297A0C4100779296 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AB0AD0E4297A0C4200779296 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB0AD0D3297A0C4100779296;
+					};
+					AB0AD0EE297A0C4200779296 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB0AD0D3297A0C4100779296;
+					};
+				};
+			};
+			buildConfigurationList = AB0AD0CF297A0C4100779296 /* Build configuration list for PBXProject "Sphox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB0AD0CB297A0C4100779296;
+			productRefGroup = AB0AD0D5297A0C4100779296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0AD0D3297A0C4100779296 /* Sphox */,
+				AB0AD0E4297A0C4200779296 /* SphoxTests */,
+				AB0AD0EE297A0C4200779296 /* SphoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0AD0D2297A0C4100779296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0AD0E0297A0C4200779296 /* Preview Assets.xcassets in Resources */,
+				AB0AD0DC297A0C4200779296 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0AD0E3297A0C4200779296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0AD0ED297A0C4200779296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0AD0D0297A0C4100779296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0AD0DA297A0C4100779296 /* ContentView.swift in Sources */,
+				AB0AD0D8297A0C4100779296 /* SphoxApp.swift in Sources */,
+				AB0AD10A29830C4600779296 /* BoundBoxVolume.swift in Sources */,
+				AB0AD11029830D3200779296 /* EllipseVolume.swift in Sources */,
+				AB0AD10C29830C5600779296 /* BoundBoxSurfArea.swift in Sources */,
+				AB0AD11229830D4000779296 /* EllipseSurfArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0AD0E1297A0C4200779296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0AD0EA297A0C4200779296 /* SphoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0AD0EB297A0C4200779296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0AD0F4297A0C4200779296 /* SphoxUITests.swift in Sources */,
+				AB0AD0F6297A0C4200779296 /* SphoxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB0AD0E7297A0C4200779296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0AD0D3297A0C4100779296 /* Sphox */;
+			targetProxy = AB0AD0E6297A0C4200779296 /* PBXContainerItemProxy */;
+		};
+		AB0AD0F1297A0C4200779296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0AD0D3297A0C4100779296 /* Sphox */;
+			targetProxy = AB0AD0F0297A0C4200779296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB0AD0F7297A0C4200779296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB0AD0F8297A0C4200779296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB0AD0FA297A0C4200779296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sphox/Sphox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sphox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.Sphox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB0AD0FB297A0C4200779296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sphox/Sphox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sphox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.Sphox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB0AD0FD297A0C4200779296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SphoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sphox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sphox";
+			};
+			name = Debug;
+		};
+		AB0AD0FE297A0C4200779296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SphoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sphox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sphox";
+			};
+			name = Release;
+		};
+		AB0AD100297A0C4200779296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SphoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sphox;
+			};
+			name = Debug;
+		};
+		AB0AD101297A0C4200779296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SphoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sphox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0AD0CF297A0C4100779296 /* Build configuration list for PBXProject "Sphox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0AD0F7297A0C4200779296 /* Debug */,
+				AB0AD0F8297A0C4200779296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0AD0F9297A0C4200779296 /* Build configuration list for PBXNativeTarget "Sphox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0AD0FA297A0C4200779296 /* Debug */,
+				AB0AD0FB297A0C4200779296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0AD0FC297A0C4200779296 /* Build configuration list for PBXNativeTarget "SphoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0AD0FD297A0C4200779296 /* Debug */,
+				AB0AD0FE297A0C4200779296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0AD0FF297A0C4200779296 /* Build configuration list for PBXNativeTarget "SphoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0AD100297A0C4200779296 /* Debug */,
+				AB0AD101297A0C4200779296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0AD0CC297A0C4100779296 /* Project object */;
+}
