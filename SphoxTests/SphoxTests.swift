@@ -2,7 +2,7 @@
 //  SphoxTests.swift
 //  SphoxTests
 //
-//  Created by IIT PHYS 440 on 1/19/23.
+//  Created by Tim Stack IIT PHYS 440 on 1/19/23.
 //
 
 import XCTest
@@ -18,11 +18,21 @@ final class SphoxTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        let radius = 1.0
+        let side1 = 2.0 * radius
+        let side2 = 2.0 * radius
+        let side3 = 2.0 * radius
+        
+            let correctAnswerVolume = 2.0 * 2.0 * 2.0
+            let correctAnswerSurfaceArea = 2.0 * 2.0 * 6.0
+        
+        let calculatedVolume =  BoundBoxVolume(side1: side1, side2: side2, side3: side3)
+        
+        let calculatedSurfaceArea =  BoundBoxSurfArea(side1: side1, side2: side2, side3: side3)
+
+        XCTAssertEqual(correctAnswerVolume, calculatedVolume, accuracy: 1.0E-12)
+        
+        XCTAssertEqual(correctAnswerSurfaceArea, calculatedSurfaceArea, accuracy: 1.0E-12)
     }
 
     func testPerformanceExample() throws {

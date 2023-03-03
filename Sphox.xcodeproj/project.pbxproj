@@ -18,6 +18,16 @@
 		AB0AD10C29830C5600779296 /* BoundBoxSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10B29830C5600779296 /* BoundBoxSurfArea.swift */; };
 		AB0AD11029830D3200779296 /* EllipseVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10F29830D3200779296 /* EllipseVolume.swift */; };
 		AB0AD11229830D4000779296 /* EllipseSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD11129830D4000779296 /* EllipseSurfArea.swift */; };
+		AB39820229883D2D00A388CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD0D9297A0C4100779296 /* ContentView.swift */; };
+		AB39820329883D2D00A388CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD0D9297A0C4100779296 /* ContentView.swift */; };
+		ABAEF87A29B27B950064A36E /* BoundBoxVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10929830C4600779296 /* BoundBoxVolume.swift */; };
+		ABAEF87B29B27B950064A36E /* BoundBoxVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10929830C4600779296 /* BoundBoxVolume.swift */; };
+		ABAEF87C29B27B980064A36E /* BoundBoxSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10B29830C5600779296 /* BoundBoxSurfArea.swift */; };
+		ABAEF87D29B27B990064A36E /* BoundBoxSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10B29830C5600779296 /* BoundBoxSurfArea.swift */; };
+		ABAEF87E29B27B9B0064A36E /* EllipseVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10F29830D3200779296 /* EllipseVolume.swift */; };
+		ABAEF87F29B27B9B0064A36E /* EllipseVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD10F29830D3200779296 /* EllipseVolume.swift */; };
+		ABAEF88029B27B9D0064A36E /* EllipseSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD11129830D4000779296 /* EllipseSurfArea.swift */; };
+		ABAEF88129B27B9E0064A36E /* EllipseSurfArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AD11129830D4000779296 /* EllipseSurfArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,7 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB39820229883D2D00A388CC /* ContentView.swift in Sources */,
 				AB0AD0EA297A0C4200779296 /* SphoxTests.swift in Sources */,
+				ABAEF87A29B27B950064A36E /* BoundBoxVolume.swift in Sources */,
+				ABAEF87E29B27B9B0064A36E /* EllipseVolume.swift in Sources */,
+				ABAEF87C29B27B980064A36E /* BoundBoxSurfArea.swift in Sources */,
+				ABAEF88029B27B9D0064A36E /* EllipseSurfArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAEF87B29B27B950064A36E /* BoundBoxVolume.swift in Sources */,
 				AB0AD0F4297A0C4200779296 /* SphoxUITests.swift in Sources */,
+				ABAEF87F29B27B9B0064A36E /* EllipseVolume.swift in Sources */,
+				ABAEF88129B27B9E0064A36E /* EllipseSurfArea.swift in Sources */,
 				AB0AD0F6297A0C4200779296 /* SphoxUITestsLaunchTests.swift in Sources */,
+				AB39820329883D2D00A388CC /* ContentView.swift in Sources */,
+				ABAEF87D29B27B990064A36E /* BoundBoxSurfArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
